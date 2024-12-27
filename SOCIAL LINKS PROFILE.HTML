@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+ 
+   <div class="container" >
+    <img src="/IMAGES/avatar-jessica.jpeg" class="img">
+   <h1 class="h1">
+    Jessica Randall
+   </h1>
+   <h3 class="h3">London, United Kingdom</h3>
+
+   <p class="p"> "Front-end developer and avid reader."</p>
+  
+   <div class="sections">
+   
+    <div class="options"> <p class="p">GitHub</p></div>
+    <div class="options"><p  class="p">Frontend Mentor</p></div>
+   <div class="options"><p  class="p"> LinkedIn</p></div>
+   <div class="options"> <p  class="p">Twitter</p></div>
+   <div class="options"><p  class="p"> Instagram</p></div>
+   </div>
+  
+   </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <style>
+    .body{
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    .container{
+      background-color: #1b1a1a;
+      width: 500px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+    }
+    .h1{
+text-align: center;
+color: white;
+    }
+.h3{
+  text-align: center;
+  color: yellow;
+}
+.p{
+  text-align: center;
+  color: white;
+}
+.sections{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.options{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(43, 42, 42);
+  border-radius: 5px;
+}
+.attribution{
+  width: 500px;
+  height: 30px;
+  background-color: #1b1a1a;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+
+}
+@media(min-width:400px) and (max-width:500px){
+  .container{
+    background-color: #1b1a1a;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .attribution{
+    border-radius: 5px;
+    width: 470px;
+    height: 30px;
+    background-color: #1b1a1a;
+    margin-top: 5px;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+}
+  </style>
+</body>
+</html>
